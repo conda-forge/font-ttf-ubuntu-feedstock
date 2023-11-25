@@ -9,7 +9,7 @@ source:
   sha256: 61a2b342526fd552f19fef438bb9211a8212de19ad96e32a1209c039f1d68ecf
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 test:
@@ -37,10 +37,11 @@ about:
   summary: The Ubuntu Font Family
   description: |
     A unique, custom designed font that has a very distinctive look and feel.
-  license: Ubuntu Font Licence Version 1.0
+  license: LicenseRef-Ubuntu-Font-Licence-Version-1.0
   license_file: LICENCE.txt
   license_family: Other
 
 extra:
   recipe-maintainers:
     - dbast
+    - xhochy
