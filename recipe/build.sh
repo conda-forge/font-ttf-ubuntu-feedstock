@@ -13,5 +13,9 @@ ls -la ${RECIPE_ROOT}
 
 # add read file permissions to LICENCE.txt
 for folder in "./" "${PREFIX}" "${RECIPE_ROOT}" "${SRC_DIR}"; do
-    find ${folder} -name "LICENCE.txt" -exec chmod a+r {} \;
+    for file in $(find ${folder} -name "LICENCE.txt"); do
+        ls -la ${file}
+        chmod +r ${file}
+        ls -la ${file}
+    done
 done
