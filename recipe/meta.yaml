@@ -2,14 +2,14 @@
 
 package:
   name: font-ttf-ubuntu
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-{{ version }}.zip
   sha256: 61a2b342526fd552f19fef438bb9211a8212de19ad96e32a1209c039f1d68ecf
 
 build:
-  number: 3
+  number: 4
   noarch: generic
 
 test:
@@ -37,7 +37,7 @@ about:
   summary: The Ubuntu Font Family
   description: |
     A unique, custom designed font that has a very distinctive look and feel.
-  license: LicenseRef-Ubuntu-Font-Licence-Version-1.0
+  license: Ubuntu-font-1.0
   license_file: LICENCE.txt
   license_family: Other
 
