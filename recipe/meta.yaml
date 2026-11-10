@@ -2,7 +2,7 @@
 
 package:
   name: font-ttf-ubuntu
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-{{ version }}.zip
